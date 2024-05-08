@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyVerse</title> <!-- Updated app name -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <!-- Large Cover Image (replace 'cover-image.jpg' with your image) -->
+        <div class="cover-image" style="background-image: url('cover-image.jpg');">
+            <div class="overlay"></div> <!-- Add overlay for better readability -->
+            <div class="intro-content">
+                <!-- Project Name -->
+                <h1 class="project-name">DailyVerse</h1>
+                <!-- One-line Phrase/Description -->
+                <p class="project-description">Experience daily inspiration with our curated selection of Bible verses.</p>
+                <!-- Navigation Elements -->
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#daily-verse">Daily Verse</a></li>
+                        <li><a href="#favorites">Favorites</a></li>
+                        <!-- Add more navigation links as needed -->
+                    </ul>
+                </nav>
+                <!-- Labeled Button -->
+                <a href="link-to-deployed-project" class="deployed-app-button">Go to DailyVerse</a>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section -->
+<section id="features" class="feature-section">
+    <!-- Feature 1 -->
+    <div class="feature">
+        <img src="feature1-image.jpg" alt="Feature 1 Image">
+        <h2 class="feature-name">Personalized Daily Verses</h2>
+        <p class="feature-description">Receive a new Bible verse personalized just for you every day, providing daily inspiration and encouragement.</p>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature">
+        <img src="feature2-image.jpg" alt="Feature 2 Image">
+        <h2 class="feature-name">Verse Favorites</h2>
+        <p class="feature-description">Save your favorite verses to easily revisit them later, ensuring you never lose track of the ones that resonate with you the most.</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature">
+        <img src="feature3-image.jpg" alt="Feature 3 Image">
+        <h2 class="feature-name">Share with Friends</h2>
+        <p class="feature-description">Share your favorite verses with friends and family through social media platforms, spreading the message of hope and love.</p>
+    </div>
+</section>
+<!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About DailyVerse</h2>
+    <p>DailyVerse was inspired by my personal journey with faith and the desire to create a tool that provides daily inspiration and guidance through the wisdom of the Bible. As a Portfolio Project for Holberton School, DailyVerse showcases my skills in web development while also serving as a meaningful project that I'm passionate about.</p>
+    <p>Visit <a href="https://holbertonschool.com/">Holberton School</a> for more information.</p>
+</section>
+ <!---------- Logo ------------->
+    <div class="menus">
+        <h1 style="margin-left:20px ; font-family:cursive;">DailyVerse</h1> <!-- Updated app name -->
+    </div>
+     <!------ wrapper ------>
+    <div class="wrapper">
+        <div class="container">
+            <!----- Verse Loader ----->
+            <div id="loader"  class="loadingio-spinner-pulse-g6p5sb86uo4"><div class="ldio-m9nvr8xvnvn">
+                <div></div><div></div><div></div>
+                </div></div>
+
+                <!-------- Verse container ------>
+            <div class="quoteShowcase">
+                <div id="verse"></div>
+                <div class="bookNavigation">
+                    <div id="bookName"></div>
+                    <div id="chapterNumber"></div>
+                    <div id="verseNumber"></div>
+                </div>
+            </div>
+
+            <!-------- social icons -------->
+            <div class="social-icons">
+            <a class="whatsapp" href="https://wa.me/?text=urlencodedtext" style="color: black;"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=Hello%20world" style="color: black;"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <!------------ New Verse Button ------------>
+        <button id="newQuoteButton">NEW VERSE</button>
+    </div>
+
+    <div class="APIattribute">
+        <span style="z-index:50;font-size:0.9em; font-weight: bold;">
+            <img src="https://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/>
+            <a href="https://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: black; margin-left: 4px; vertical-align: middle;">
+              API: They Said So®
+            </a>
+      </span>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+
+</html>
