@@ -4,17 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bible Verse</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DailyVerse</title> <!-- Updated app name -->
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <!---------- logo ------------->
-    <div class="menus">
-        <h1 style="margin-left:20px ; font-family:cursive;">DailyVerse</h1>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <!-- Large Cover Image (replace 'cover-image.jpg' with your image) -->
+        <div class="cover-image" style="background-image: url('https://pixabay.com/get/gd43f5e2e4f2c22c689de1b6bb45c71ff21ddb05d9caaacbc995009a0c76dde2bd65f74cb3971e9a4ef5e21ac3216583b.jpg' height="20" width="20");">
+            <div class="overlay"></div> <!-- Add overlay for better readability -->
+            <div class="intro-content">
+                <!-- Project Name -->
+                <h1 class="project-name">DailyVerse</h1>
+                <!-- One-line Phrase/Description -->
+                <p class="project-description">Experience daily inspiration with our curated selection of Bible verses.</p>
+                <!-- Navigation Elements -->
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#daily-verse">Daily Verse</a></li>
+                        <li><a href="#favorites">Favorites</a></li>
+                        <!-- Add more navigation links as needed -->
+                    </ul>
+                </nav>
+                <!-- Labeled Button -->
+                <a href="link-to-deployed-project" class="deployed-app-button">New Verse</a>
+            </div>
+        </div>
+    </section>
+    <!-- Feature Section -->
+<section id="features" class="feature-section">
+    <!-- Feature 1 -->
+    <div class="feature">
+        <img src="feature1-image.jpg" alt="Feature 1 Image">
+        <h2 class="feature-name">Personalized Daily Verses</h2>
+        <p class="feature-description">Receive a new Bible verse personalized just for you every day, providing daily inspiration and encouragement.</p>
     </div>
-
-    <!------ wrapper ------>
+    <!-- Feature 2 -->
+    <div class="feature">
+        <img src="feature2-image.jpg" alt="Feature 2 Image">
+        <h2 class="feature-name">Favorite Verses</h2>
+        <p class="feature-description">Save your favorite verses to easily revisit them later, ensuring you never lose track of the ones that resonate with you the most.</p>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature">
+        <img src="feature3-image.jpg" alt="Feature 3 Image">
+        <h2 class="feature-name">Share with Friends</h2>
+        <p class="feature-description">Share your favorite verses with friends and family through social media platforms, spreading the message of hope and love.</p>
+    </div>
+</section>
+<!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About DailyVerse</h2>
+    <p>DailyVerse was inspired by my personal journey with faith and the desire to create a tool that provides daily inspiration and guidance through the wisdom of the Bible. As a Portfolio Project for Holberton School, DailyVerse showcases my skills in web development while also serving as a meaningful project that I'm passionate about.</p>
+    <p>Visit <a href="https://holbertonschool.com/">Holberton School</a> for more information.</p>
+</section>
+ <!---------- Logo ------------->
+    <div class="menus">
+        <h1 style="margin-left:20px ; font-family:cursive;">DailyVerse</h1> <!-- Updated app name -->
+    </div>
+     <!------ wrapper ------>
     <div class="wrapper">
         <div class="container">
             <!----- Verse Loader ----->
@@ -42,12 +90,6 @@
         <!------------ New Verse Button ------------>
         <button id="newQuoteButton">NEW VERSE</button>
     </div>
-  
-<section id="about" class="about-section">
-    <h2>About DailyVerse</h2>
-    <p>DailyVerse was inspired by my personal journey with faith and the desire to create a tool that provides daily inspiration and guidance through the wisdom of the Bible. As a Portfolio Project for Holberton School, DailyVerse showcases my skills in web development while also serving as a meaningful project that I'm passionate about.</p>
-    <p>Visit <a href="https://holbertonschool.com/">Holberton School</a> for more information.</p>
-
 
     <div class="APIattribute">
         <span style="z-index:50;font-size:0.9em; font-weight: bold;">
