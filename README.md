@@ -1,4 +1,4 @@
-DailyVerse: A bible verse generating application
+DAILYVERSE: A bible verse generating application
 
 This is a beautiful bible app I will be worked solo on.  It really wasn't smooth sailing but I finally put it together and it was worth the effort. I present to you; https://qkpage2.co/p/DailyVerse_com
 
