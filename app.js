@@ -36,7 +36,7 @@ async function getQuote() {
     // Add hyphen(-) before chapter
     bookName.innerHTML = `- ${bookk}`
 
-    // Add semi-colon(:) after Chapter
+    // Add semi-colon(:) after Chapter.
     chapterNumber.innerHTML = `${chapterr} :`
 
 
@@ -50,5 +50,5 @@ async function getQuote() {
     
 }
 
-// Get new verse on page load/reload
+// Get new verse on page load/reload.
 window.onload = getQuote()
